@@ -1,0 +1,117 @@
+@keyframes mudaCor{
+    0%{
+        background-color: red;
+    }
+    10%{
+        background-color: rgb(3, 3, 168);
+    }
+    20%{
+
+    }
+    
+    30%{
+        background-color: rgb(255, 0, 251);
+    }
+
+    40%{
+        background-color: rgb(3, 108, 168);
+    }
+
+    50%{
+        
+    }
+    60%{
+        background-color: rgb(229, 255, 0);
+    }
+    70%{
+        background-color: rgb(105, 3, 168);
+    }
+
+    80%{
+        background-color: rgb(0, 0, 0);
+        
+    }
+    100%{
+        background-color: aquamarine;
+    }
+
+}
+
+@keyframes mudaBackground{
+    0%{
+        background-image: url(../images/greenverde.jpg);
+    }
+    50%{ 
+        background-image: url(../images/nutrii.jpg);
+    }
+    100%{
+        background-image: url(../images/branco.jpg);
+    }
+    
+}
+
+@font-face{
+        font-family: dulce ;
+        src: url(../fonts/dulce_boy/Dulce-Boy.ttf);
+    /* otf, tff*/
+
+
+}
+
+@font-face{
+        font-family: magicw ;
+        src: url(../fonts/witch_magic/Witch\ Magic.ttf);
+        font-weight: normal;
+
+}
+
+@font-face{
+    font-family: magicw ;
+    src: url(../fonts/witch_magic/Witch\ Magic\ Italic.ttf);
+  
+
+}
+
+h3{
+    font-family: dulce ;
+}
+
+* {
+    margin:0%;
+    padding: 0%;
+    font-family: magicw ;
+    font-weight: lighter;
+}
+
+#caixaCor{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    animation-name: mudaCor;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+#caixaGif{
+        padding-right: 80px;
+        width: 800px;
+        height: 400px;
+        background-image: url(../images/banner\ video.gif) ;
+        background-size: cover;
+        background-position: right;
+        animation-iteration-count: infinite;
+
+
+}
+
+#caixaImagem {
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/tapioca\ do\ piaui.png);
+    background-position: right;
+    background-size: cover;
+    animation: mudaBackground 20s infinite;
+
+
+}
+
